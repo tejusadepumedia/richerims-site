@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "coverage": "Source-reviewed seed records; not a universal vehicle database.",
+  "records": [
+    {
+      "id": "bmw-m5-f10-eudm-2011-2013-345m",
+      "market": "eudm",
+      "years": { "from": 2011, "to": 2013 },
+      "make": "BMW",
+      "model": "M5",
+      "trim": "M5 (F10)",
+      "option": "345M · 19-inch staggered factory wheels",
+      "confidence": "reported",
+      "source": {
+        "publisher": "BMW / H&R / SizeMyWheels",
+        "document": "F10 M5 factory 345M wheel package",
+        "url": "https://www.press.bmwgroup.com/middle-east/article/attachment/T0115453EN/166892",
+        "accessedOn": "2026-09-23",
+        "notes": "BMW confirms 19×9 front, 19×10 rear and tires. Offsets: https://myair-bdr.bmwgroup.com/static/manual/RadReif/downloads/Rad-Reifen/M-GmbH/F1xM_201312.pdf . PCD/thread: https://www.h-r.com/bin/infos/HR_Katalog_2019.pdf . Nominal wheel bore: https://sizemywheels.com/pcd/bmw/m5/m5-v . European F10 pre-facelift production years; no claim of universal market coverage."
+      },
+      "axleFitments": [
+        {
+          "axle": "front",
+          "wheel": { "diameterIn": 19, "widthIn": 9, "offsetMm": 32, "centerBoreMm": 72.6 },
+          "boltPattern": { "count": 5, "pcdMm": 120, "thread": "M14 × 1.25", "notes": "Lug bolts; thread size does not specify the wheel's clearance-hole or seat dimensions." },
+          "tire": { "label": "265/40R19 102Y", "widthMm": 265, "aspectRatio": 40, "rimDiameterIn": 19, "loadIndex": 102, "speedRating": "Y" }
+        },
+        {
+          "axle": "rear",
+          "wheel": { "diameterIn": 19, "widthIn": 10, "offsetMm": 34, "centerBoreMm": 72.6 },
+          "boltPattern": { "count": 5, "pcdMm": 120, "thread": "M14 × 1.25", "notes": "Lug bolts; thread size does not specify the wheel's clearance-hole or seat dimensions." },
+          "tire": { "label": "295/35R19 104Y", "widthMm": 295, "aspectRatio": 35, "rimDiameterIn": 19, "loadIndex": 104, "speedRating": "Y" }
+        }
+      ]
+    }
+  ]
+}
