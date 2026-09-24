@@ -5,7 +5,10 @@
     {
       "id": "bmw-m5-f10-eudm-2011-2013-345m",
       "market": "eudm",
-      "years": { "from": 2011, "to": 2013 },
+      "years": {
+        "from": 2011,
+        "to": 2013
+      },
       "make": "BMW",
       "model": "M5",
       "trim": "M5 (F10)",
@@ -21,15 +24,117 @@
       "axleFitments": [
         {
           "axle": "front",
-          "wheel": { "diameterIn": 19, "widthIn": 9, "offsetMm": 32, "centerBoreMm": 72.6 },
-          "boltPattern": { "count": 5, "pcdMm": 120, "thread": "M14 × 1.25", "notes": "Lug bolts; thread size does not specify the wheel's clearance-hole or seat dimensions." },
-          "tire": { "label": "265/40R19 102Y", "widthMm": 265, "aspectRatio": 40, "rimDiameterIn": 19, "loadIndex": 102, "speedRating": "Y" }
+          "wheel": {
+            "diameterIn": 19,
+            "widthIn": 9,
+            "offsetMm": 32,
+            "centerBoreMm": 72.6
+          },
+          "boltPattern": {
+            "count": 5,
+            "pcdMm": 120,
+            "thread": "M14 × 1.25",
+            "notes": "Lug bolts; thread size does not specify the wheel's clearance-hole or seat dimensions."
+          },
+          "tire": {
+            "label": "265/40R19 102Y",
+            "widthMm": 265,
+            "aspectRatio": 40,
+            "rimDiameterIn": 19,
+            "loadIndex": 102,
+            "speedRating": "Y"
+          }
         },
         {
           "axle": "rear",
-          "wheel": { "diameterIn": 19, "widthIn": 10, "offsetMm": 34, "centerBoreMm": 72.6 },
-          "boltPattern": { "count": 5, "pcdMm": 120, "thread": "M14 × 1.25", "notes": "Lug bolts; thread size does not specify the wheel's clearance-hole or seat dimensions." },
-          "tire": { "label": "295/35R19 104Y", "widthMm": 295, "aspectRatio": 35, "rimDiameterIn": 19, "loadIndex": 104, "speedRating": "Y" }
+          "wheel": {
+            "diameterIn": 19,
+            "widthIn": 10,
+            "offsetMm": 34,
+            "centerBoreMm": 72.6
+          },
+          "boltPattern": {
+            "count": 5,
+            "pcdMm": 120,
+            "thread": "M14 × 1.25",
+            "notes": "Lug bolts; thread size does not specify the wheel's clearance-hole or seat dimensions."
+          },
+          "tire": {
+            "label": "295/35R19 104Y",
+            "widthMm": 295,
+            "aspectRatio": 35,
+            "rimDiameterIn": 19,
+            "loadIndex": 104,
+            "speedRating": "Y"
+          }
+        }
+      ]
+    },
+    {
+      "id": "porsche-911-gt3-992-2-eudm-2025-center-lock",
+      "market": "eudm",
+      "years": {
+        "from": 2025,
+        "to": 2025
+      },
+      "make": "Porsche",
+      "model": "911",
+      "trim": "GT3 (992.2) PDK",
+      "option": "Factory forged alloy · 20/21-inch center-lock wheels",
+      "confidence": "reported",
+      "source": {
+        "publisher": "Porsche AG",
+        "document": "911 GT3 (PDK) technical data, MY S 10/2024, EU (Germany)",
+        "url": "https://pnr-prd2-pub2.newsroom.porsche.com/dam/jcr:ca1882c7-1588-4a2e-995c-fe19ef1281fc/pag-911-gt3-pdk-en.pdf.PDF",
+        "accessedOn": "2026-09-24",
+        "notes": "Porsche EU technical data specifies both wheel dimensions, offsets and tires. Standard center-lock mounting: https://newsroom.porsche.com/en/press-kits/911-GT3/Chassis-and-dynamics.html . Model-year identity: https://www.porsche.com/stories/innovation/new-2025-porsche-911-gt3/ . Applies only to this GT3 variant and factory package, not other 911 trims. Center-bore, nut dimensions and thread are not supplied by these sources and remain unknown."
+      },
+      "axleFitments": [
+        {
+          "axle": "front",
+          "wheel": {
+            "diameterIn": 20,
+            "widthIn": 9.5,
+            "offsetMm": 46,
+            "centerBoreMm": null
+          },
+          "mounting": {
+            "type": "center-lock",
+            "fastenerCount": 1,
+            "thread": null,
+            "notes": "Factory single central retaining nut; hub interface and nut dimensions are not listed in this source."
+          },
+          "boltPattern": null,
+          "tire": {
+            "label": "255/35 ZR 20",
+            "widthMm": 255,
+            "aspectRatio": 35,
+            "rimDiameterIn": 20,
+            "construction": "ZR"
+          }
+        },
+        {
+          "axle": "rear",
+          "wheel": {
+            "diameterIn": 21,
+            "widthIn": 12,
+            "offsetMm": 45,
+            "centerBoreMm": null
+          },
+          "mounting": {
+            "type": "center-lock",
+            "fastenerCount": 1,
+            "thread": null,
+            "notes": "Factory single central retaining nut; hub interface and nut dimensions are not listed in this source."
+          },
+          "boltPattern": null,
+          "tire": {
+            "label": "315/30 ZR 21",
+            "widthMm": 315,
+            "aspectRatio": 30,
+            "rimDiameterIn": 21,
+            "construction": "ZR"
+          }
         }
       ]
     }
